@@ -13,7 +13,6 @@ Hey [{}](tg://user?id={}), I'm powerful  Song Downloader Bot 🎵
 😉 Just send me the song name you want to download.😋
       eg:```/song saritha```
       
-A bot by @supunma 🇱🇰
 """
 
 @app.on_message(filters.command("start"))
@@ -25,11 +24,8 @@ async def start(client, message):
         btn = InlineKeyboardMarkup(
             [
                 [
-                     InlineKeyboardButton(
-                        text="Channel 🔊", url="https://t.me/slbotzone"
-                    ),
                     InlineKeyboardButton(
-                        text="Dev 🔥", url="https://t.me/supunma"
+                        text="Group", url="https://t.me/whatsappgang"
                     )
                 ]
             ]
